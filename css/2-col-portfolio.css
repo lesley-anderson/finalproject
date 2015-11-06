@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+h1, a h1, a h1:hover {
+	font-family: 'League Script', cursive; font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+
+}
+
+.center-block {
+	width: 250px;
+
+}
+
+.bioimg {
+	width: 550px;
+}
+
+.clearfix {
+	clear: both;
+	margin: 200px;
+}
+.bio-container {
+	margin: 0px;
+}
+
+.page-header {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+.centered-pills { 
+	text-align:center; 
+	margin: 20px;
+}
+
+.nav-pills{
+	margin-bottom: 50px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	/* hover color! */
+	background-color: #fff;
+	color: black;
+}
+
+.nav-pills>li>a:hover {
+	/* hover color! */
+	background-color: #fff;
+}
+a  {
+    color: #bababa;
+  }
+a:hover {
+	 color: #6e6e6e;
+	 text-decoration: none;
+}
+
+
+.centered-pills ul.nav-pills { display:inline-block;}
+.centered-pills li { display:inline; margin: 10px;}
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.thumb {
+	
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #bababa;
+    border-color: #bababa;
+   }
+
+   .pagination>li>a, .pagination>li>span {
+    color: #bababa;
+   }
+
+  .paginationparent .pagination>li>a:hover {
+  	color: #6e6e6e;
+  }
+
+footer {
+    margin: 50px 0;
+}
