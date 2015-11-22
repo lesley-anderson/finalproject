@@ -5,30 +5,73 @@
  */
 
 h1, a h1, a h1:hover {
-	font-family: 'League Script'; cursive;
+	font-family: 'Reenie Beanie', cursive;
 	font-weight: 400;
-	font-size: 350%;
+	font-size: 400%;
 	text-align: center;
 	text-decoration: none;
 	color: black;
 
 }
 
-.center-block {
-	width: 250px;
-
+h2 {
+	text-align: left;
 }
 
-.bioimg {
-	width: 550px;
+h3 {
+	font-size: normal;
+	font-weight: 200;
+}
+
+.skillslist {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.skillslist2 {
+	display: inline-block;
+	list-style-type: none;
+	padding: 20px;
+}
+
+
+ul {
+	padding: 0px;
+}
+li {
+	list-style-type: none;
+
+	
+}
+
+.center-block {
+	width: 250px;
+	margin-bottom: 20px;
+}
+
+
+.biotext {
+	line-height: 200%;
+	text-align: left;
+}
+
+.img {
+	width: 100%;
+	margin-bottom: 60px;
+	margin-top: 0px;
+}
+
+.portfolio-text {
+	margin-bottom: 50px;
 }
 
 .clearfix {
 	clear: both;
-	margin: 200px;
+	margin: 100px;
 }
-.bio-container {
-	margin: 0px;
+.container {
+	margin: 0 auto;
+	width: 90%;
 }
 
 .page-header {
@@ -39,22 +82,25 @@ h1, a h1, a h1:hover {
 
 .centered-pills { 
 	text-align:center; 
-	margin: 20px;
+	margin: 5px;
 }
 
 .nav-pills{
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
 	/* hover color! */
 	background-color: #fff;
 	color: black;
+	text-decoration: underline;
 }
 
 .nav-pills>li>a:hover {
 	/* hover color! */
 	background-color: #fff;
+	text-decoration: underline;
 }
+
 a  {
     color: #bababa;
   }
@@ -75,12 +121,42 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.thumb {
-	
+.navbar {
+	background-color: #fff;
+	color: black;
+	border: none;
+	margin-bottom: 50px;
+	text-decoration: underline;
+}
+
+.wrapper {
+	margin-top: 40px;
+}
+
+.portfolio-text {
+	text-align: left;
+	width: 90%;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	text-decoration: underline;
+	background-color: #fff;
+}
+
+.navbar-nav>li>a:hover {
+	text-decoration: underline;
 }
 
 .portfolio-item {
     margin-bottom: 25px;
+}
+
+.puppy {
+	width: 5%;
+}
+
+.bike {
+	width: 8%;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
@@ -97,8 +173,16 @@ body {
 
   .paginationparent .pagination>li>a:hover {
   	color: #6e6e6e;
+  	background-color: #a6a6a6;
+  	border-color: #a6a6a6;
   }
+
+.fa {
+	margin: 5px;
+	color: black;
+}
 
 footer {
     margin: 50px 0;
 }
+
